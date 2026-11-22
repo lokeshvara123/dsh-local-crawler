@@ -1,0 +1,43 @@
+{
+  "name": "dsh-local-crawler",
+  "version": "0.1.0",
+  "description": "Local-first web crawling for DeepSeek Harness: scrape pages to clean Markdown, map links, crawl whole sites, and extract structured JSON with an LLM — no cloud scraping service, no credits, data stays on this machine.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^26.0.0",
+    "puppeteer-core": "^24.0.0",
+    "turndown": "^7.2.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "crawler",
+    "scraper",
+    "web",
+    "firecrawl",
+    "local"
+  ],
+  "license": "MIT"
+}

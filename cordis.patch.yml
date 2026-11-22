@@ -1,0 +1,8 @@
+# dsh-local-crawler: local web scraping suite for the DeepSeek Harness agent.
+# Host-only bundle: registers four model-facing tools (local_scrape, local_map,
+# local_crawl, local_extract). No cloud scraping service is involved; pages are
+# fetched from this machine, optionally rendered by the local Chrome/Edge.
+- insert:
+    - id: local-crawler
+      name: dsh-local-crawler
+      config: {}

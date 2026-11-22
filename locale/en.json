@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Local crawler",
+    "description": "Local-first web scraping for the agent: scrape pages to Markdown, map links, crawl sites, and extract structured JSON with an LLM. No cloud scraping service, no credits; pages are fetched from this machine, optionally rendered by the local Chrome/Edge, and never sent to a third party.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "本地爬虫全家桶",
+    "description": "给 Agent 用的本地优先网页抓取套件:网页转 Markdown、链接地图、整站爬取、LLM 结构化提取 JSON。不依赖云端抓取服务、零额度计费;页面从本机发出请求,可按需用本机 Chrome/Edge 渲染,数据不出本机。",
+    "detail": "docs/DETAIL.md"
+  }
+}
